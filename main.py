@@ -1,7 +1,4 @@
 # <-- Encoding - utf8 -->
-# Copyright | Coded by Marouane Skandaji
-
-# Application entry point for running spark jobs:
 
 import os
 import sys
