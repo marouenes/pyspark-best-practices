@@ -3,7 +3,7 @@
 ```bash
 $ pipenv shell
 $ make build
-$ spark-submit --master local spark-python/main.py
+$ spark-submit --master local ~/<project-directory-path>/main.py
 $ cd dist && spark-submit --master local --py-files src.zip main.py && cd
 ```
 
@@ -11,7 +11,7 @@ $ cd dist && spark-submit --master local --py-files src.zip main.py && cd
 
 ```bash
 $ spark-submit
-````
+```
 
 ## Setting up the virtual environment in the same directory as the Pipfile
 
