@@ -1,0 +1,45 @@
+# byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# tests and coverage
+*.pytest_cache
+.coverage
+
+# pyenv
+.python-version
+
+# Environements
+.env
+.venv/
+env/
+venv/
+env.bak
+venv.bak/
+
+# Other
+.DS_Store
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info
+.installed.cfg
+*.egg
+MANIFEST
+
+# VSCode
+.vscode
